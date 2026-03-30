@@ -1,0 +1,5 @@
+{
+  "name": "Grid Guardian Web",
+  "description": "A powerful browser extension for real-time AI security monitoring, system health tracking, and abuse.ch threat intelligence.",
+  "requestFramePermissions": ["geolocation"]
+}

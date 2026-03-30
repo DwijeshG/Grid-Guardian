@@ -1,0 +1,32 @@
+[
+  {
+    "id": 4001,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "||browserleaks.com^", "resourceTypes": ["script", "xmlhttprequest"] }
+  },
+  {
+    "id": 4002,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "||fingerprintjs.com^", "resourceTypes": ["script", "xmlhttprequest"] }
+  },
+  {
+    "id": 4003,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "||panopticlick.eff.org^", "resourceTypes": ["script", "xmlhttprequest"] }
+  },
+  {
+    "id": 4004,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "||amiunique.org^", "resourceTypes": ["script", "xmlhttprequest"] }
+  },
+  {
+    "id": 4005,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "||easyprivacy.txt^", "resourceTypes": ["script", "xmlhttprequest"] }
+  }
+]

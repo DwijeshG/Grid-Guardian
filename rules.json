@@ -1,0 +1,16 @@
+[
+  {
+    "id": 5003,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "X-Nexus-Shield", "operation": "set", "value": "active" }
+      ]
+    },
+    "condition": { 
+      "urlFilter": "*", 
+      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
+    }
+  }
+]

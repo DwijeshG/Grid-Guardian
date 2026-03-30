@@ -1,0 +1,113 @@
+{
+  "manifest_version": 3,
+  "name": "Grid Guardian Web",
+  "version": "2.5.0",
+  "description": "Autonomous AI-driven web protection and security suite with real-time threat interception.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["keylogger_defense.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["nexus_content.css"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["fingerprint.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess",
+    "notifications",
+    "offscreen",
+    "webNavigation",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://denfensivegridlabs.netlify.app/*",
+    "https://freeipapi.com/*",
+    "https://ipapi.co/*",
+    "https://api.ipify.org/*",
+    "https://cloudflare-dns.com/*",
+    "https://ais-dev-yxjvkaqu4j2wzutbtowvg3-360512275637.us-east1.run.app/*",
+    "https://ais-pre-yxjvkaqu4j2wzutbtowvg3-360512275637.us-east1.run.app/*",
+    "https://generativelanguage.googleapis.com/*",
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "tailwind.min.css",
+        "tf-core.min.js",
+        "tf-backend-cpu.min.js",
+        "tf-backend-wasm.min.js",
+        "tf-converter.min.js",
+        "tf-layers.min.js",
+        "neural_sidecar.js",
+        "tfjs-backend-wasm.wasm",
+        "tfjs-backend-wasm-simd.wasm",
+        "tfjs-backend-wasm-threaded-simd.wasm"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "easylist",
+        "enabled": true,
+        "path": "rules/easylist.json"
+      },
+      {
+        "id": "malware_blocklist",
+        "enabled": true,
+        "path": "rules/malware.json"
+      },
+      {
+        "id": "security_headers",
+        "enabled": true,
+        "path": "rules/headers.json"
+      },
+      {
+        "id": "malware_rules",
+        "enabled": true,
+        "path": "rules/malware_rules.json"
+      },
+      {
+        "id": "privacy_rules",
+        "enabled": true,
+        "path": "rules/privacy_rules.json"
+      },
+      {
+        "id": "nexus_hardened",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

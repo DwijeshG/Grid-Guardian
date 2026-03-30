@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-bg: #000000;
+  --color-card: #121212;
+  --color-panel: #171717;
+  --color-accent: #FAFAFA;
+  --color-border: #404040;
+  --color-safe: #00FF94;
+  --color-danger: #FF3B3B;
+  --color-warning: #FFB800;
+  --color-muted: #737373;
+}
+
+/* Global scrollbar removal for all elements */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari and Opera */
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 380px;
+    height: 600px;
+    overflow: hidden;
+  }
+  body {
+    @apply bg-bg text-accent font-sans antialiased text-base selection:bg-safe/20 selection:text-safe;
+  }
+  #root {
+    @apply h-full w-full;
+  }
+}
+
+.app-container {
+  @apply flex h-full w-full overflow-hidden flex-col;
+}
+
+.sidebar {
+  @apply hidden;
+}
+
+.main-content {
+  @apply flex-1 flex flex-col min-w-0 bg-bg relative overflow-hidden;
+}
+
+.content-scroll {
+  @apply flex-1 overflow-y-auto p-4;
+}
+
+.glass {
+  @apply bg-card border border-border/20 shadow-xl;
+}
+
+.hardware-border {
+  @apply border border-border/30 relative;
+}
+
+.hardware-border::before {
+  content: '';
+  @apply absolute -top-px -left-px w-1.5 h-1.5 border-t border-l border-muted/20;
+}
+
+.hardware-border::after {
+  content: '';
+  @apply absolute -bottom-px -right-px w-1.5 h-1.5 border-b border-r border-muted/20;
+}
+
+.pulse-dot {
+  @apply w-2 h-2 bg-safe rounded-full;
+  box-shadow: 0 0 12px var(--color-safe);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: .4; transform: scale(1.3); }
+}
+
+/* Nexus Content Classes (for injection) */
+.nexus-honeypot-host {
+  @apply absolute -left-[9999px] -top-[9999px] w-px h-px overflow-hidden pointer-events-none;
+}
+
+.nexus-decrypt-badge {
+  @apply bg-warning/10 border border-warning/30 rounded px-1 text-warning text-[9px] font-black uppercase;
+}
+
+.nexus-decrypt-overlay {
+  @apply fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-panel text-white p-5 rounded-xl border border-warning z-[2147483647] max-w-[80%] max-h-[80%] overflow-y-auto shadow-2xl font-mono text-xs leading-relaxed whitespace-pre-wrap;
+}
+
+.nexus-decrypt-header {
+  @apply flex justify-between items-center mb-4 border-b border-white/10 pb-2;
+}
+
+.nexus-decrypt-header-title {
+  @apply text-warning font-black text-[10px] uppercase tracking-widest;
+}
+
+.nexus-decrypt-close {
+  @apply text-lg leading-none;
+}
+

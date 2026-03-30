@@ -1,0 +1,16 @@
+[
+  {
+    "id": 6001,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "X-Content-Type-Options", "operation": "set", "value": "nosniff" },
+        { "header": "Referrer-Policy", "operation": "set", "value": "no-referrer-when-downgrade" },
+        { "header": "Strict-Transport-Security", "operation": "set", "value": "max-age=31536000; includeSubDomains" },
+        { "header": "X-XSS-Protection", "operation": "set", "value": "1; mode=block" }
+      ]
+    },
+    "condition": { "urlFilter": "*", "resourceTypes": ["main_frame", "sub_frame"] }
+  }
+]
