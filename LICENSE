@@ -1,201 +1,697 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║            DEFENSIVE GRID LABS OPEN USE LICENSE                   ║
+║          Based on the Apache License, Version 2.0                 ║
+║   With Supplementary Proprietary, Attribution, and Equity Terms   ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+  Copyright (c) 2026 Defensive Grid Labs. All Rights Reserved.
+  Repository:  https://github.com/DwijeshG/Grid-Guardian
+  Contact:     defensivegridlabs@gmail.com
 
-   1. Definitions.
+  OWNED, DEVELOPED, AND OPERATED EXCLUSIVELY BY:
+  DEFENSIVE GRID LABS
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+═══════════════════════════════════════════════════════════════════════
+                      PREAMBLE AND FORMAL NOTICE
+═══════════════════════════════════════════════════════════════════════
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+  This document constitutes a legally binding license agreement
+  ("the License") governing the access, use, reproduction,
+  modification, distribution, publication, deployment, and
+  academic or research utilization of the software, its source
+  code, compiled binaries, documentation, configuration files,
+  assets, build scripts, and all associated intellectual property
+  (collectively referred to hereinafter as "the Software"), which
+  is the sole and exclusive intellectual property of Defensive
+  Grid Labs ("the Proprietor").
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+  This License is issued pursuant to the foundational framework
+  of the Apache License, Version 2.0, and is supplemented by
+  additional proprietary, attribution, equity, and academic
+  citation provisions that supersede the Apache License 2.0
+  wherever a conflict or inconsistency arises. The additional
+  provisions contained herein are necessitated by the
+  Proprietor's assertion of its intellectual property rights and
+  its commitment to ensuring proper attribution, academic
+  integrity, and equitable acknowledgment of authorship.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+  BY ACCESSING, CLONING, FORKING, DOWNLOADING, INSTALLING,
+  EXECUTING, MODIFYING, DISTRIBUTING, SUBLICENSING, CITING,
+  REFERENCING IN ACADEMIC WORK, OR IN ANY OTHER MANNER
+  INTERACTING WITH THIS SOFTWARE OR ANY DERIVATIVE THEREOF,
+  YOU (THE "LICENSEE") HEREBY UNCONDITIONALLY, IRREVOCABLY,
+  AND WITHOUT RESERVATION AGREE TO BE LEGALLY BOUND BY EACH
+  AND EVERY TERM, CONDITION, RESTRICTION, OBLIGATION, AND
+  PROVISION SET FORTH IN THIS LICENSE IN ITS ENTIRETY.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+  IF YOU DO NOT AGREE TO, OR ARE UNABLE TO COMPLY WITH, ANY
+  PROVISION OF THIS LICENSE, YOU ARE STRICTLY, ABSOLUTELY,
+  AND WITHOUT EXCEPTION PROHIBITED FROM ANY AND ALL USE,
+  ACCESS, OR INTERACTION WITH THIS SOFTWARE IN ANY FORM,
+  AND YOU MUST IMMEDIATELY AND PERMANENTLY CEASE ALL
+  ENGAGEMENT WITH THIS REPOSITORY AND ANY MATERIALS DERIVED
+  THEREFROM.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+  NON-COMPLIANCE WITH ANY PROVISION OF THIS LICENSE SHALL
+  CONSTITUTE A MATERIAL BREACH AND MAY SUBJECT THE VIOLATING
+  PARTY TO IMMEDIATE TERMINATION OF GRANTED RIGHTS, CIVIL
+  LITIGATION, AND SUCH FURTHER LEGAL REMEDIES AS DEFENSIVE
+  GRID LABS DEEMS APPROPRIATE AND NECESSARY TO FULLY PROTECT
+  ITS INTELLECTUAL PROPERTY INTERESTS.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+═══════════════════════════════════════════════════════════════════════
+               SECTION 1 — DEFINITIONS AND INTERPRETATION
+═══════════════════════════════════════════════════════════════════════
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+  1.1  "Defensive Grid Labs" or "the Proprietor" shall refer
+       to the founding organization known as Defensive Grid
+       Labs, its principals, authorized maintainers, legal
+       representatives, successors, and assigns.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+  1.2  "the Software" shall refer to all source code, object
+       code, compiled binaries, documentation, configuration
+       files, build scripts, assets, visual media, and all
+       other tangible or intangible materials contained in,
+       associated with, or distributed alongside the
+       repository located at:
+       https://github.com/DwijeshG/Grid-Guardian,
+       including all past, present, and future versions,
+       revisions, and releases thereof.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+  1.3  "Derivative Work" shall mean any software, application,
+       extension, plugin, library, tool, service, script,
+       publication, research output, dataset, model, or any
+       other work — whether commercial, non-commercial,
+       academic, or otherwise — that is based upon, derived
+       from, adapted from, incorporates, or references any
+       portion of the Software, including but not limited to
+       modifications, translations, abridgements, extensions,
+       integrations, functional reproductions, or any form
+       in which the Software has been recast, transformed,
+       or materially adapted.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+  1.4  "Substantial Similarity" shall mean that fifty percent
+       (50%) or more of the measurable lines of source code,
+       logical structures, algorithmic constructs, functional
+       components, or architectural patterns of a given work
+       are identical to, functionally equivalent to, or
+       discernibly derived from the Software, as assessed
+       through objective code comparison methodologies or
+       at the sole and reasonable determination of Defensive
+       Grid Labs.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+  1.5  "Licensee" shall mean any individual, legal entity,
+       academic institution, research organization, government
+       body, corporation, or automated system that accesses,
+       utilizes, modifies, distributes, or references the
+       Software in any capacity whatsoever.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+  1.6  "Academic and Research Use" shall mean any use of the
+       Software, in whole or in part, for purposes of
+       scholarly research, academic study, scientific
+       experimentation, publication in journals, conference
+       proceedings, theses, dissertations, white papers,
+       technical reports, presentations, or any other
+       form of intellectual inquiry or educational output.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+  1.7  "Contribution" shall mean any deliberate submission of
+       source code, documentation, bug fixes, feature
+       additions, or other materials to Defensive Grid Labs
+       for incorporation into the Software.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+  1.8  "Distribute" shall mean to make the Software or any
+       Derivative Work available to any third party through
+       any medium or channel, including but not limited to
+       GitHub, npm, the Chrome Web Store, Firefox Add-ons
+       Marketplace, app stores, package registries, websites,
+       academic repositories, institutional repositories,
+       preprint servers, or any private or commercial channel.
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+═══════════════════════════════════════════════════════════════════════
+               SECTION 2 — GRANT OF LICENSE
+═══════════════════════════════════════════════════════════════════════
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+  2.1  PERMITTED USES. Subject to full, complete, and ongoing
+       compliance with every term and condition of this
+       License, Defensive Grid Labs hereby grants the Licensee
+       a limited, non-exclusive, non-transferable, revocable,
+       worldwide, royalty-free license to:
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+       (a) Reproduce the Software for personal, educational,
+           academic, research, or non-commercial purposes,
+           subject to all attribution and citation requirements
+           enumerated in Sections 4 and 5 of this License;
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+       (b) Modify the Software to produce Derivative Works,
+           provided that all conditions in Sections 4, 5,
+           and 6 are strictly and unconditionally satisfied;
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+       (c) Distribute the Software or any Derivative Work,
+           provided that all conditions in Sections 4, 5,
+           6, and 7 are strictly and unconditionally satisfied;
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+       (d) Utilize the Software in commercial applications or
+           products, provided that all conditions in Sections
+           4, 5, 6, 7, and 8 are strictly and unconditionally
+           satisfied.
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+  2.2  NO TRANSFER OF PROPRIETARY RIGHTS. This License does
+       not, under any circumstances, transfer, assign, convey,
+       or otherwise relinquish any intellectual property
+       rights, ownership interests, trademark rights, trade
+       secret protections, or proprietary interests in the
+       Software from Defensive Grid Labs to the Licensee.
+       The Licensee receives only the strictly limited rights
+       expressly enumerated herein and absolutely nothing more.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+  2.3  RESERVATION OF ALL OTHER RIGHTS. All rights not
+       expressly and explicitly granted herein are reserved
+       exclusively, perpetually, and irrevocably by Defensive
+       Grid Labs.
 
-   END OF TERMS AND CONDITIONS
+═══════════════════════════════════════════════════════════════════════
+               SECTION 3 — PROPRIETARY OWNERSHIP CLAUSE
+               (THE SUBSTANTIAL SIMILARITY AND EQUITY PROVISION)
+═══════════════════════════════════════════════════════════════════════
 
-   APPENDIX: How to apply the Apache License to your work.
+  3.1  AUTOMATIC INTELLECTUAL PROPERTY INTEREST UPON
+       SUBSTANTIAL SIMILARITY. In the event that any
+       Derivative Work, software product, application,
+       service, tool, extension, library, or any other
+       creation produced or distributed by any Licensee is
+       found to exhibit Substantial Similarity (as defined
+       in Section 1.4) to this Software, the following
+       conditions shall apply automatically, immediately, and
+       without further notice or action required by Defensive
+       Grid Labs:
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+       (a) Defensive Grid Labs shall be deemed to hold an
+           intellectual property interest directly and
+           proportionally equivalent to the percentage of the
+           Derivative Work that is substantially similar to
+           the Software. By way of illustration only: if
+           sixty-five percent (65%) of a Derivative Work's
+           codebase is found to be substantially similar to
+           this Software, Defensive Grid Labs shall hold a
+           sixty-five percent (65%) intellectual property
+           interest in that Derivative Work.
 
-   Copyright 2026 Defensive Grid Labs
+       (b) The Licensee is categorically and irrevocably
+           prohibited from asserting, claiming, or representing
+           sole authorship, sole ownership, or exclusive
+           intellectual property rights over any Derivative
+           Work that exhibits Substantial Similarity.
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+       (c) Any commercial revenue, remuneration, licensing
+           fees, grants, financial benefits, or any other
+           form of economic gain derived from a Derivative
+           Work exhibiting Substantial Similarity must be
+           fully and transparently disclosed to Defensive
+           Grid Labs upon request. Defensive Grid Labs
+           reserves the unqualified right to negotiate
+           equitable compensation commensurate with its
+           established intellectual property interest in
+           such Derivative Work.
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       (d) The Licensee is obligated to conspicuously and
+           unambiguously disclose the existence of Defensive
+           Grid Labs' intellectual property interest in all
+           public-facing materials, product documentation,
+           marketplace listings, README files, and user
+           interfaces associated with such Derivative Work.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+  3.2  AUTHORITY OF DETERMINATION. Defensive Grid Labs
+       reserves sole, final, and authoritative discretion
+       in determining whether a given work exhibits
+       Substantial Similarity, subject to objective code
+       analysis methodology. The Licensee shall furnish
+       full cooperation in any reasonable code review,
+       comparative analysis, or audit initiated by
+       Defensive Grid Labs.
+
+  3.3  PROHIBITION ON CIRCUMVENTION. Any deliberate or
+       negligent attempt to circumvent, undermine, or
+       obscure Substantial Similarity through superficial
+       code restructuring, variable renaming, comment
+       deletion, whitespace alteration, code obfuscation,
+       transpilation, compilation, minification, or any
+       other technique designed or likely to disguise the
+       derivation of a work from the Software — without
+       materially and substantively altering the underlying
+       logic, architecture, or functional behavior — shall
+       be regarded as a willful violation of this License
+       and shall not diminish, negate, or otherwise affect
+       Defensive Grid Labs' intellectual property interest
+       as established under this Section.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 4 — MANDATORY ATTRIBUTION AND CREDIT
+               REQUIREMENTS (ABSOLUTE AND NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════
+
+  4.1  UNIVERSAL AND UNCONDITIONAL ATTRIBUTION OBLIGATION.
+       Regardless of the scope, scale, nature, or purpose
+       of use — whether personal, academic, research-oriented,
+       commercial, governmental, or otherwise — ALL Licensees
+       who use, reference, modify, incorporate, redistribute,
+       or build upon this Software in any capacity whatsoever
+       are ABSOLUTELY AND WITHOUT EXCEPTION REQUIRED to
+       provide clear, prominent, conspicuous, and unambiguous
+       attribution to Defensive Grid Labs. This obligation
+       is absolute, unconditional, and admits of no
+       exceptions, exemptions, or waivers.
+
+  4.2  MANDATORY ATTRIBUTION STATEMENT. All Derivative Works,
+       distributions, publications, deployments, academic
+       submissions, or any other use or reference of the
+       Software must include the following statement, verbatim
+       and in its complete and unaltered form, in a prominent
+       and immediately visible location:
+
+       ┌─────────────────────────────────────────────────────┐
+       │                                                     │
+       │  "This software is based upon, derived from, or    │
+       │   incorporates work originally developed and        │
+       │   authored by Defensive Grid Labs.                  │
+       │                                                     │
+       │   Original Repository:                             │
+       │   https://github.com/DwijeshG/Grid-Guardian        │
+       │                                                     │
+       │   Contact: defensivegridlabs@gmail.com             │
+       │                                                     │
+       │   © 2026 Defensive Grid Labs.                      │
+       │   All Rights Reserved.                             │
+       │                                                     │
+       │   Used under the Defensive Grid Labs               │
+       │   Open Use License, Version 1.0."                  │
+       │                                                     │
+       └─────────────────────────────────────────────────────┘
+
+  4.3  MANDATORY PLACEMENT OF ATTRIBUTION. The attribution
+       statement required under Section 4.2 must appear, at
+       minimum, in ALL of the following locations applicable
+       to the Licensee's specific use case:
+
+       (a) In a README.md or equivalent primary documentation
+           file located in the root directory of any repository
+           hosting the Derivative Work;
+
+       (b) In prominent source code header comments within
+           all files containing code derived or adapted from
+           the Software;
+
+       (c) In any app store listing, extension marketplace
+           page, browser add-on page, or public product
+           page associated with the Derivative Work;
+
+       (d) In the "About," "Credits," "Acknowledgments,"
+           or "Legal Notices" section of any associated
+           application user interface;
+
+       (e) In any academic paper, thesis, dissertation,
+           research publication, preprint, conference
+           proceeding, technical report, white paper, or
+           any other scholarly document that references,
+           describes, utilizes, evaluates, or builds upon
+           the Software or any Derivative thereof;
+
+       (f) In any press release, marketing material,
+           promotional content, grant application, or
+           funding proposal that references or relies
+           upon the Software;
+
+       (g) In all user-facing and developer-facing
+           documentation, installation guides, API
+           references, and technical specifications.
+
+  4.4  PROHIBITION AGAINST FALSE ATTRIBUTION. The Licensee
+       is categorically and unequivocally prohibited from
+       representing the Software or any Derivative Work as
+       an original independent creation without acknowledging
+       the foundational authorship of Defensive Grid Labs.
+       Any such misrepresentation shall constitute a material
+       breach of this License and may constitute actionable
+       intellectual property infringement.
+
+  4.5  PROHIBITION ON REMOVAL OR ALTERATION OF NOTICES.
+       The Licensee is strictly and absolutely forbidden
+       from removing, obscuring, altering, overwriting,
+       or in any manner diminishing any copyright notices,
+       attribution statements, trademark references, credit
+       acknowledgments, or legal notices present in the
+       original Software. All such notices must be preserved
+       in their complete and unmodified form in all copies,
+       Derivative Works, and distributions.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 5 — ACADEMIC AND RESEARCH CITATION
+               REQUIREMENTS (MANDATORY WITHOUT EXCEPTION)
+═══════════════════════════════════════════════════════════════════════
+
+  5.1  ACADEMIC CITATION OBLIGATION. Any Licensee who utilizes
+       this Software, in whole or in part, for purposes
+       constituting Academic and Research Use (as defined
+       in Section 1.6) is subject to a mandatory, non-waivable,
+       and absolute obligation to formally cite Defensive
+       Grid Labs and this Software in all resulting academic
+       and research outputs. This obligation applies
+       regardless of the extent of use, the degree of
+       modification, or whether the Software constitutes
+       a primary or ancillary component of the research.
+
+  5.2  REQUIRED ACADEMIC CITATION FORMAT. All academic
+       publications, research papers, theses, dissertations,
+       technical reports, conference presentations, and
+       any other scholarly outputs must include, at minimum,
+       a citation in the following format within the
+       References, Bibliography, or Works Cited section:
+
+       ┌─────────────────────────────────────────────────────┐
+       │                                                     │
+       │  Defensive Grid Labs. (2026). Grid Guardian        │
+       │  [Software]. Retrieved from                        │
+       │  https://github.com/DwijeshG/Grid-Guardian         │
+       │  Contact: defensivegridlabs@gmail.com              │
+       │                                                     │
+       └─────────────────────────────────────────────────────┘
+
+  5.3  IN-TEXT CITATION REQUIREMENT. In addition to the
+       bibliographic citation required under Section 5.2,
+       any section, passage, methodology description, or
+       analysis within an academic or research work that
+       directly employs, references, evaluates, or discusses
+       the Software must include an in-text citation
+       explicitly identifying Defensive Grid Labs as the
+       originating author and source.
+
+  5.4  PRIOR NOTIFICATION FOR ACADEMIC USE. Licensees
+       intending to utilize this Software for Academic and
+       Research Use are strongly encouraged, and in the
+       case of institutional or funded research, are required,
+       to notify Defensive Grid Labs in advance at
+       defensivegridlabs@gmail.com, identifying the nature
+       of the intended research use and the anticipated
+       form of publication or dissemination. Defensive
+       Grid Labs reserves the right to request review
+       of such publications prior to submission to confirm
+       proper attribution has been rendered.
+
+  5.5  PROHIBITION ON UNCITED ACADEMIC USE. Any academic
+       or research output that utilizes this Software
+       without proper citation as mandated by this Section
+       shall be deemed a violation of this License. Defensive
+       Grid Labs reserves the right to contact the relevant
+       academic institution, journal, conference, or
+       publisher to report the attribution deficiency and
+       request appropriate remediation.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 6 — DISTRIBUTION CONDITIONS
+═══════════════════════════════════════════════════════════════════════
+
+  6.1  REDISTRIBUTION IN SOURCE CODE FORM. Redistribution
+       of the Software in source code form is conditionally
+       permitted, provided that:
+
+       (a) This License, in its complete and unmodified form,
+           is reproduced and included with every distribution;
+
+       (b) All copyright notices are preserved in their
+           entirety and without modification;
+
+       (c) All attribution requirements of Section 4 are
+           fully and completely satisfied;
+
+       (d) All modifications are clearly, accurately, and
+           specifically documented and dated in a dedicated
+           CHANGES, CHANGELOG, or equivalent file;
+
+       (e) The Licensee refrains absolutely from
+           misrepresenting the origin of the Software or
+           claiming authorship of any unmodified portions.
+
+  6.2  REDISTRIBUTION IN BINARY OR COMPILED FORM.
+       Redistribution of the Software in compiled, packaged,
+       minified, obfuscated, or binary form is conditionally
+       permitted, provided that:
+
+       (a) All conditions enumerated in Section 6.1 are met;
+
+       (b) The mandatory attribution statement prescribed
+           in Section 4.2 is prominently included in all
+           accompanying documentation and all materials
+           distributed alongside the compiled Software;
+
+       (c) The name, branding, and trademarks of Defensive
+           Grid Labs are not utilized to endorse, promote,
+           advertise, or market the Licensee's product
+           or service without prior explicit written
+           authorization from Defensive Grid Labs.
+
+  6.3  SUBLICENSING RESTRICTIONS. The Licensee is expressly
+       prohibited from sublicensing the Software under terms
+       that are less restrictive, less protective of Defensive
+       Grid Labs' rights, or otherwise inconsistent with
+       this License. Any sublicense issued by the Licensee
+       must incorporate all provisions of this License by
+       express reference and must not purport to grant rights
+       exceeding those conferred herein.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 7 — CONTRIBUTIONS TO THIS REPOSITORY
+═══════════════════════════════════════════════════════════════════════
+
+  7.1  CONTRIBUTOR LICENSE GRANT. Unless expressly and
+       explicitly agreed otherwise in a separate written
+       instrument executed by Defensive Grid Labs, any
+       Contribution intentionally submitted for inclusion
+       in the Software by any Licensee shall be governed
+       exclusively by the terms of this License, without
+       the imposition of any supplementary terms or
+       conditions by the contributing party.
+
+  7.2  ASSIGNMENT AND LICENSE OF CONTRIBUTIONS. By submitting
+       a Contribution to this repository, the Licensee
+       irrevocably grants Defensive Grid Labs a perpetual,
+       worldwide, non-exclusive, royalty-free, irrevocable
+       license to reproduce, prepare Derivative Works of,
+       publicly display, publicly perform, sublicense, and
+       distribute such Contributions as integral components
+       of the Software or any Derivative Works thereof.
+
+  7.3  REPRESENTATION AND WARRANTY OF ORIGINALITY. The
+       Licensee hereby represents and warrants that each
+       and every Contribution submitted is an original work
+       of the Licensee's own authorship, that the Licensee
+       possesses the full legal right and authority to grant
+       the license described in Section 7.2, and that such
+       Contribution does not infringe the intellectual
+       property rights of any third party. The Licensee
+       accepts sole, exclusive, and complete responsibility
+       for any breach of this representation and shall
+       indemnify and hold harmless Defensive Grid Labs
+       from any claims arising therefrom.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 8 — COMMERCIAL USE REQUIREMENTS
+═══════════════════════════════════════════════════════════════════════
+
+  8.1  COMMERCIAL USE CONDITIONALLY PERMITTED. Commercial
+       utilization of the Software or any Derivative Work
+       is conditionally permitted solely upon full, complete,
+       and unqualified compliance with all attribution
+       requirements set forth in Section 4, all distribution
+       conditions set forth in Section 6, and all additional
+       obligations enumerated in this Section.
+
+  8.2  COMMERCIAL DERIVATIVE WORKS AND SUBSTANTIAL SIMILARITY.
+       Any Derivative Work deployed for commercial purposes
+       that exhibits Substantial Similarity (as defined in
+       Section 1.4) shall additionally be subject, without
+       exception, to all provisions of Section 3, including
+       the intellectual property interest and equity
+       provisions. Commercial Licensees are strongly advised
+       to conduct a comprehensive, documented similarity
+       analysis prior to commercial deployment of any
+       Derivative Work.
+
+  8.3  PROHIBITION ON UNAUTHORIZED ENDORSEMENT. The Licensee
+       is strictly prohibited from utilizing the name
+       "Defensive Grid Labs," its logos, trademarks,
+       service marks, trade names, or the names of its
+       contributors to endorse, promote, market, or
+       advertise any products, services, or ventures
+       derived from or built upon this Software without
+       prior, explicit, and written authorization from
+       Defensive Grid Labs, obtainable by contacting
+       defensivegridlabs@gmail.com.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 9 — DISCLAIMER OF WARRANTIES
+═══════════════════════════════════════════════════════════════════════
+
+  9.1  THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY
+       OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY,
+       OR OTHERWISE, INCLUDING BUT NOT LIMITED TO THE
+       IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+       A PARTICULAR PURPOSE, TITLE, ACCURACY, RELIABILITY,
+       AND NON-INFRINGEMENT. DEFENSIVE GRID LABS EXPRESSLY
+       DISCLAIMS AND MAKES NO REPRESENTATION OR WARRANTY
+       THAT THE SOFTWARE IS FREE FROM DEFECTS, ERRORS,
+       SECURITY VULNERABILITIES, OR THAT IT WILL OPERATE
+       CONTINUOUSLY, WITHOUT INTERRUPTION, OR IN CONFORMANCE
+       WITH ANY SPECIFICATION.
+
+  9.2  THE LICENSEE UNEQUIVOCALLY ASSUMES ALL RISK
+       ASSOCIATED WITH THE USE OF THE SOFTWARE, INCLUDING
+       WITHOUT LIMITATION ALL RISKS OF PROGRAM ERRORS,
+       DATA CORRUPTION, DATA LOSS, SYSTEM DAMAGE, SECURITY
+       BREACHES, AND OPERATIONAL UNAVAILABILITY.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 10 — LIMITATION OF LIABILITY
+═══════════════════════════════════════════════════════════════════════
+
+  10.1 TO THE MAXIMUM EXTENT PERMITTED BY ALL APPLICABLE
+       LAW, IN NO EVENT SHALL DEFENSIVE GRID LABS, ITS
+       PRINCIPALS, CONTRIBUTORS, MAINTAINERS, OR ANY
+       AUTHORIZED REPRESENTATIVES BE LIABLE FOR ANY DIRECT,
+       INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+       CONSEQUENTIAL, PUNITIVE, OR AGGRAVATED DAMAGES OF
+       ANY NATURE WHATSOEVER, INCLUDING BUT NOT LIMITED
+       TO LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF DATA,
+       LOSS OF BUSINESS OPPORTUNITY, BUSINESS INTERRUPTION,
+       OR ANY OTHER COMMERCIAL, FINANCIAL, OR OPERATIONAL
+       DAMAGES OR LOSSES, ARISING OUT OF OR IN ANY WAY
+       CONNECTED WITH THE USE OF, OR INABILITY TO USE,
+       THE SOFTWARE, WHETHER BASED IN CONTRACT, TORT,
+       STRICT LIABILITY, OR ANY OTHER LEGAL THEORY, EVEN
+       IF DEFENSIVE GRID LABS HAS BEEN EXPRESSLY ADVISED
+       OF THE POSSIBILITY OF SUCH DAMAGES.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 11 — TERMINATION
+═══════════════════════════════════════════════════════════════════════
+
+  11.1 IMMEDIATE AUTOMATIC TERMINATION. This License and
+       all rights granted hereunder shall terminate
+       automatically, immediately, and without prior notice
+       upon the Licensee's failure, refusal, or inability
+       to comply with any term, condition, obligation, or
+       restriction set forth in this License.
+
+  11.2 CONSEQUENCES OF TERMINATION. Upon termination of
+       this License, the Licensee must immediately and
+       permanently cease all use, reproduction, modification,
+       distribution, and possession of the Software and
+       all Derivative Works. Termination shall not relieve
+       the Licensee of any liability, obligation, or
+       responsibility for violations that occurred prior
+       to termination.
+
+  11.3 SURVIVAL OF PROVISIONS. Sections 3, 4, 5, 9, 10,
+       and 12 of this License shall survive the termination
+       or expiration of this License and shall remain in
+       full force and effect indefinitely thereafter.
+
+  11.4 CONDITIONS FOR REINSTATEMENT. Rights terminated
+       pursuant to this Section are not automatically
+       reinstated under any circumstances. Reinstatement
+       of any terminated rights requires the prior, explicit,
+       and unequivocal written consent of Defensive Grid Labs,
+       obtainable exclusively by written request to
+       defensivegridlabs@gmail.com.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 12 — GOVERNING LAW AND ENFORCEMENT
+═══════════════════════════════════════════════════════════════════════
+
+  12.1 GOVERNING LAW. This License shall be governed by,
+       construed in accordance with, and enforced under
+       the laws of the State of Texas, United States of
+       America, without regard to any conflict of law
+       principles that would cause the application of
+       the laws of any other jurisdiction.
+
+  12.2 EXCLUSIVE JURISDICTION. Any dispute, controversy,
+       or claim arising under, out of, or in connection
+       with this License, or the breach, termination, or
+       validity thereof, shall be subject to the exclusive
+       personal jurisdiction and venue of the competent
+       courts located within the State of Texas, United
+       States of America. The Licensee irrevocably waives
+       any objection to such jurisdiction and venue.
+
+  12.3 ENFORCEMENT AND REMEDIES. Defensive Grid Labs
+       expressly reserves the right to enforce any and all
+       provisions of this License through all available
+       legal remedies, including but not limited to the
+       pursuit of preliminary and permanent injunctive
+       relief, monetary damages, disgorgement of profits,
+       statutory damages, and recovery of reasonable
+       attorneys' fees, court costs, and all expenses
+       incurred in the enforcement of this License.
+
+  12.4 SEVERABILITY. In the event that any provision or
+       portion thereof of this License is determined by
+       a court of competent jurisdiction to be invalid,
+       illegal, or unenforceable, such provision shall be
+       modified to the minimum extent necessary to render
+       it enforceable while preserving the original intent
+       of the parties, and all remaining provisions shall
+       continue in full force and effect, unimpaired and
+       unaffected.
+
+  12.5 NO WAIVER. The failure of Defensive Grid Labs to
+       enforce any provision of this License at any time
+       shall not be construed as a waiver of such provision
+       or of the right to enforce it thereafter.
+
+  12.6 ENTIRE AGREEMENT. This License constitutes the
+       complete, final, and entire agreement between
+       Defensive Grid Labs and the Licensee with respect
+       to the subject matter hereof, and supersedes all
+       prior and contemporaneous negotiations,
+       representations, warranties, agreements, and
+       understandings, whether written or oral, relating
+       to such subject matter.
+
+═══════════════════════════════════════════════════════════════════════
+               SECTION 13 — APACHE 2.0 FOUNDATIONAL BASIS
+═══════════════════════════════════════════════════════════════════════
+
+  13.1 This License incorporates the foundational framework
+       of the Apache License, Version 2.0, the complete
+       text of which is available at:
+       https://www.apache.org/licenses/LICENSE-2.0
+
+       In all instances where the terms of this License
+       impose additional, more restrictive, or otherwise
+       stricter obligations than those prescribed by the
+       Apache License 2.0, the terms of this License shall
+       govern, prevail, and take absolute precedence.
+
+═══════════════════════════════════════════════════════════════════════
+
+                       END OF LICENSE TERMS
+
+       © 2026 Defensive Grid Labs. All Rights Reserved.
+       Repository: https://github.com/DwijeshG/Grid-Guardian
+       Contact:    defensivegridlabs@gmail.com
+
+  Unauthorized use, reproduction, modification, or distribution
+  of this Software in violation of this License constitutes a
+  serious infringement of Defensive Grid Labs' intellectual
+  property rights and will be pursued with full legal vigor
+  to the maximum extent permissible under applicable law.
+
+  Ignorance of the terms of this License does not constitute
+  a defense against any claim of violation brought by
+  Defensive Grid Labs.
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     "Built with purpose. Protected with intent."
+                                          — Defensive Grid Labs
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
